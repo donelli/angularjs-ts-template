@@ -2,7 +2,13 @@
 
 Template for angularJs projects using Typescript. Bootstrap 4.6 is installed.
 
-## Useful sites:
+## Versions
+
+- AngularJS: 1.8.2
+- Typescript:  4.1.3
+- Webpack: 5.16.0
+
+## Useful websites:
 
 - https://tech.ovoenergy.com/angular-typescript/
 - https://developerhandbook.com/typescript/writing-angularjs-1-x-with-typescript/
@@ -30,5 +36,5 @@ npm run build-dev
 To recompile project when file changes:
 
 ```sh
-npm run watch
+npm run start
 ```

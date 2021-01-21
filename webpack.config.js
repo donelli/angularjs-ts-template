@@ -34,7 +34,8 @@ const config = {
   plugins: [
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'src/view', to: 'view' }
+        { from: 'src/view', to: 'view' },
+        { from: 'src/index.html' }
       ]
     })
   ]
