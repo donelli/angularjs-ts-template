@@ -35,6 +35,7 @@ const config = {
     new CopyWebpackPlugin({
       patterns: [
         { from: 'src/view', to: 'view' },
+        { from: 'src/assets', to: 'assets' },
         { from: 'src/index.html' }
       ]
     })
